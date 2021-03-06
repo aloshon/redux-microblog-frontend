@@ -1,7 +1,9 @@
 # Getting Started with Create React App
 
 This project uses data from the microblog backend which can be found on this repo: https://github.com/aloshon/redux-microblog-backend
+
 Start up the server first
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
