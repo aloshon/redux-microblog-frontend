@@ -1,0 +1,26 @@
+.title{
+    text-align: left;
+    width: 45%;
+    vertical-align: top;
+    margin: 3px;
+    display: inline-block;
+}
+
+.title-card {
+    background-color: #eee;
+}
+
+.votes-stats{
+    position: relative;
+    text-align: right;
+}
+
+.votes-stats button{
+    font-size: 12px;
+    width: 35px;
+    height: 35px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+    border-radius: 50%;
+}

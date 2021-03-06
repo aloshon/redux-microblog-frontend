@@ -1,0 +1,9 @@
+.nav-title{
+    font-family: garamond;
+    font-size: 50px;
+}
+
+.blog-button:focus, .new-post-button:focus {
+    outline: none;
+    outline-offset: none
+}

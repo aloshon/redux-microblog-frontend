@@ -1,0 +1,10 @@
+.postform{
+    text-align: left;
+    border: solid 1px black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.postform button{
+    margin: 3px;
+}
