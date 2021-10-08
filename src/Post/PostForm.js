@@ -32,7 +32,7 @@ const PostForm = ({post}) => {
     const [formData, handleChange, resetFormData] = useFields(INITIAL_STATE);
 
     // Check if title or body is empty, if not add post to reducers
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         if(!formData.title || !formData.description){
             alert('ERROR: Title and Description are not allowed to be empty!');
@@ -45,7 +45,7 @@ const PostForm = ({post}) => {
             history.push(`/`);
             return
         }
-        dispatch(addPost(formData));
+        await dispatch(addPost(formData));
         resetFormData();
         history.push(`/`);
     }

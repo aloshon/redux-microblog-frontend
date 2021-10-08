@@ -1,11 +1,11 @@
 import React, {useEffect} from "react";
-import { useSelector, useDispatch, shallowEqual } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import Title from "./Title";
 import {fetchTitles} from '../actionCreators';
 
 const TitleList = () => {
     // This is the Homepage
-    const titles = useSelector(state => state.titles, shallowEqual);
+    const titles = useSelector(state => state.titles);
     const dispatch = useDispatch();
 
     useEffect(() => {

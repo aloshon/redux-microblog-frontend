@@ -47,8 +47,8 @@ const PostDetails = () => {
     }
 
     // Delete post and send user to homepage when delete button is clicked
-    const removePost = () => {
-        dispatch(deletePost(id));
+    const removePost = async () => {
+        await dispatch(deletePost(id));
         history.push('/');
     }
 
